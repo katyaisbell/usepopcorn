@@ -7,11 +7,13 @@ import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <App />
-    {/* <StarRating
-      maxRating={5}
-      messages={["Terrible", "Bad", "Ok", "Good", "Excellent"]}
-    /> */}
-  </React.StrictMode>
+  // <React.StrictMode>
+  //   <App />
+  //   {/* <StarRating
+  //     maxRating={5}
+  //     messages={["Terrible", "Bad", "Ok", "Good", "Excellent"]}
+  //   /> */}
+  // </React.StrictMode>
+
+  <App />
 );
