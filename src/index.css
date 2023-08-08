@@ -346,3 +346,53 @@ SPACING SYSTEM (px)
 FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 /52 / 62 / 74 / 86 / 98
 */
+
+@media (max-width: 40rem) {
+  .nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    padding: 0 1rem;
+    align-items: center;
+  }
+
+  .logo span {
+    font-size: 1.6rem;
+  }
+
+  .logo h1 {
+    font-size: 1.8rem;
+    margin-right: 0.5rem;
+  }
+
+  .search {
+    width: 20rem;
+  }
+  .num-results {
+    font-size: 0rem;
+  }
+
+  .main {
+    flex-wrap: wrap;
+  }
+
+  .box {
+    height: 42rem;
+  }
+
+  .list li {
+    column-gap: 0.8rem;
+    font-size: 1.2rem;
+
+    padding: 1rem 1rem;
+  }
+  .summary div {
+    display: flex;
+    align-items: center;
+    margin: 0rem 0rem;
+    gap: 2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+}
